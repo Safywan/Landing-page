@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    height: 100vh;
 }
 
 /*TOP SECTION OF THE WEBSITE*/
@@ -120,6 +121,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .content h2 {
@@ -238,3 +240,19 @@ body {
     border: 4px solid #E5E7EB;
     padding: 10px 50px;
 }
+
+/*End of content section*/
+
+/*....*/
+
+/* Start of footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 20px;
+    padding: 50px;
+}
+
+/*End of footer*/
